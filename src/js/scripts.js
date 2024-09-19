@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
-<<<<<<< HEAD
-* Copyright 2013-2023 Start Bootstrap
-=======
-* Copyright 2013-2024 Start Bootstrap
->>>>>>> 6a88a02 (Initial commit with dist folder)
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
 //
 // Scripts
 // 
