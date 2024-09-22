@@ -1,11 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
-<<<<<<< HEAD
-* Copyright 2013-2023 Start Bootstrap
-=======
 * Copyright 2013-2024 Start Bootstrap
->>>>>>> 6a88a02 (Initial commit with dist folder)
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 /*!
@@ -11071,3 +11067,18 @@ header.masthead h1, header.masthead .h1 {
 =======
 }
 >>>>>>> 6a88a02 (Initial commit with dist folder)
+<head>
+    <!-- 他のスタイルシートリンク -->
+    <link href="css/styles.css" rel="stylesheet" />
+    
+    <style>
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>

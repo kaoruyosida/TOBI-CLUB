@@ -39,7 +39,9 @@
         <a class="navbar-brand" href="#page-top">
             <img src="assets/img/鳶CLUBロゴ(透かし).1.png" alt="鳶CLUBロゴ" style="height: 80px;">
         </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
                 <li class="nav-item"><a class="nav-link" href="#tobi-club">鳶CLUBとは</a></li>
@@ -48,7 +50,8 @@
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 <!-- Instagram Icon with Button Style -->
                 <li class="nav-item">
-                    <a class="nav-link instagram-icon" href="https://www.instagram.com/tobi.club" target="_blank">
+                    <a class="nav-link instagram-icon" href="https://www.instagram.com/tobi.club" target="_blank" 
+                       onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'Instagram', 'value': 1});">
                         <i class="bi bi-instagram"></i>
                     </a>
                 </li>
@@ -57,8 +60,7 @@
     </div>
 </nav>
 
-        
-
+            
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
@@ -277,20 +279,19 @@
 
 
 
-<!-- Footer -->
+ <!-- Footer -->
 <footer class="bg-light py-5">
     <div class="container px-4 px-lg-5">
-        <!-- Instagram Button -->
         <div class="text-center mb-3">
-            <a class="instagram-icon" href="https://www.instagram.com/tobi.club" target="_blank">
+            <a class="instagram-icon" href="https://www.instagram.com/tobi.club" target="_blank" 
+               onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'Instagram', 'value': 1});">
                 <i class="bi bi-instagram"></i>
-              </a>
-              
+            </a>
         </div>
-        
         <div class="small text-center text-muted">© 2024 鳶CLUB. All rights reserved.</div>
     </div>
 </footer>
+
 
 
 
@@ -320,4 +321,3 @@
 
 </body>
 </html>
-
