@@ -10996,7 +10996,6 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-<<<<<<< HEAD
 }
 /* Instagramアイコンをグラデーションカラーにし、3倍の大きさに */
 .instagram-icon i.bi-instagram {
@@ -11055,11 +11054,28 @@ header.masthead h1, header.masthead .h1 {
   -webkit-text-fill-color: transparent;
   transition: transform 0.3s ease, background 0.3s ease;
   display: inline-block; /* インライン要素として表示 */
+
+  /* 浮遊効果の追加 */
+  animation: floating 3s ease-in-out infinite;
 }
 
-/* ホバー時に1.5倍に拡大 */
+/* ホバー時に1.5倍に拡大しつつ浮遊効果を維持 */
 .instagram-icon:hover i.bi-instagram {
-  transform: scale(1.5) !important; /* ホバー時に1.5倍に拡大 */
+  transform: translateY(-30px) scale(1.5) !important; /* 拡大と大きく浮遊を同時に適用 */
+  transition: transform 0.3s ease; /* スムーズなアニメーション */
+}
+
+/* 浮遊アニメーション */
+@keyframes floating {
+  0% {
+    transform: translateY(0); /* 初期位置 */
+  }
+  50% {
+    transform: translateY(70px); /* 下に70px動く */
+  }
+  100% {
+    transform: translateY(0); /* 元の位置に戻る */
+  }
 }
 
 
@@ -11068,6 +11084,4 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-=======
-}
->>>>>>> 6a88a02 (Initial commit with dist folder)
+
